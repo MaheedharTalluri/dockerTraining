@@ -1,5 +1,4 @@
 FROM ubuntu:16.04
-USER ubuntu
 RUN apt update 
 RUN apt install nginx -y
-RUN sudo service nginx start
+RUN service nginx start
